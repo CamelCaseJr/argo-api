@@ -5,7 +5,7 @@ metadata:
   name: argo-api-service
 spec:
   selector:
-    app: argo-api
+    app: nginx
   ports:
     - protocol: TCP
       port: 80
